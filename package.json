@@ -1,0 +1,35 @@
+{
+  "name": "reactinangular",
+  "version": "1.0.0",
+  "description": "Running a react directive in angular 1",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boeriksson/reactInAngular.git"
+  },
+  "author": "bo.branzell@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boeriksson/reactInAngular/issues"
+  },
+  "homepage": "https://github.com/boeriksson/reactInAngular#readme",
+  "dependencies": {
+    "angular": "^1.6.7",
+    "babel-polyfill": "^6.26.0",
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "path": "^0.12.7",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
